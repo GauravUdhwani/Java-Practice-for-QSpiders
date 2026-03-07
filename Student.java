@@ -16,7 +16,7 @@ class Student
 		
 		else if ((p>50)&&(p<=64))
 		{
-			System.out.println("Rank is First Class");
+			System.out.println("Rank is Second Class");
 		}
 		
 		else
@@ -25,3 +25,4 @@ class Student
 		}
 	}
 }
+
