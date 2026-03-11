@@ -2,20 +2,14 @@ class Gaurav
 {
 	public static void main(String[] args) 
 	{
-		char ch = 'A';
-		if(((ch >= 'A')&&(ch <= 'Z')) || ((ch >= 'a')&&(ch <= 'z')))
+		int a = 1;
+		int b = 5;
+		
+		do
 		{
-			System.out.println(ch+ " is a alphabet");
+			System.out.println(a);
+			a++;
 		}
-		
-		else if((ch>='0')&&(ch<='9'))
-		{
-			System.out.println(ch+ " is a number");
-		}
-		
-		else
-		{
-			System.out.println(ch+ " is a special character");
-		}}
-		
+		while(a<=b);
+	}
 }
